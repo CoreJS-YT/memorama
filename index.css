@@ -1,0 +1,57 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    background: rgba(63, 94, 251, 0.541);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgb(12, 4, 112) 100%);
+    font-family: sans-serif;
+    color: white;
+}
+.card {
+    width: 730px;
+    display: flex;
+    margin: 100px auto 50px;
+    align-items: center;
+}
+.card__sect1 {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 0 10px 10px 10px;
+    border-radius: 8px;
+}
+h1 {
+    text-align: center;
+}
+button {
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+}
+button:hover {
+    cursor: pointer;
+}
+.card__sect2 {
+    background-color: rgba(255,255,255,0.2);
+    width: 250px;
+    height: 400px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 22px 20px;
+}
+.estadisticas {
+    border: 1px solid white;
+    height: 105px;
+    border-radius: 8px;
+    padding: 8px 20px;
+    margin: 15px 0;
+}
+footer {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
